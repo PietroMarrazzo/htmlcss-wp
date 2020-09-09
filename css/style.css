@@ -60,10 +60,16 @@ header nav{
   text-decoration: none;
 }
 
+
 header li {
   display: inline-block;
   padding: 10px 25px;
   text-decoration: none;
+}
+
+header li:hover {
+  background-color: #EFD19F;
+  color: #aec282;
 }
 
 
@@ -73,6 +79,11 @@ header li a {
   font-weight: bold;
   color: white;
 }
+
+header li a:hover{
+  color: #aec282;
+}
+
 
 /* MAIN */
 main{
