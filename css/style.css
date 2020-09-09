@@ -156,9 +156,19 @@ main div .fas.fa-rss{
 /* square centro */
 main .centro{
   float: left;
-  height: 400px;
   width: 50%;
   margin-right: 2%;
+}
+
+section .titolo-centro{
+  margin: 20px;
+  text-transform: uppercase;
+}
+
+section .parag-centro {
+  padding-top: 30px;
+  margin: 20px;
+  line-height: 27px;
 }
 
 
