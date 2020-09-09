@@ -205,22 +205,35 @@ div .squarino {
 }
 
 
-
-
-
 /* FOOTER */
 footer {
-  background-color: #32a6a8;
+  background-color: lightgray;
   height: 100px;
   width: auto;
   clear: both;
-  border-radius: 10%;
+
 }
 
 
+.creatore {
+  font-style: italic;
+  font-size: 15px;
+  text-align: center;
+}
 
-.joke {
-  font-size: 50px;
-  color: #8a5820;
-  float: right;
+
+.creatore span {
+  font-style: normal;
+}
+
+
+#linea {
+
+}
+
+
+.social {
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
 }
