@@ -207,18 +207,18 @@ div .squarino {
 
 /* FOOTER */
 footer {
-  background-color: lightgray;
-  height: 100px;
+  background-color: white;
   width: auto;
   clear: both;
-
+  padding: 5px;
+  color: gray;
+  text-align: center;
 }
 
 
-.creatore {
+footer h4 {
   font-style: italic;
   font-size: 15px;
-  text-align: center;
 }
 
 
@@ -227,13 +227,19 @@ footer {
 }
 
 
-#linea {
-
-}
-
-
-.social {
-  text-decoration: none;
+.social-list {
   list-style: none;
   text-align: center;
+}
+
+/* parte float footer */
+.social.list::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.social-list {
+  float: left;
+
 }
