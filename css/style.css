@@ -21,17 +21,18 @@ body{
 header {
   margin-top: 30px;
   margin-bottom: 10px;
-  height: 300px;
-
+  height: 500px;
 }
 
 
 .header-top {
+  padding: 15px 5px;
   text-align: center;
   background-image: url("../img/natural-header.jpg");
   background-size: cover;
-  height: 300px;
+  border: 10px solid white;
 }
+
 
 header img {
   padding-top: 20px;
@@ -39,19 +40,39 @@ header img {
 }
 
 
-header h2{
+header h2 {
   text-align: center;
   text-transform: uppercase;
   color: white;
+  padding-bottom: 30px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
 header nav{
   background-color: gray;
   color: white;
+  text-align: center;
+
+}
+
+.menu{
   text-decoration: none;
 }
 
+header li {
+  display: inline-block;
+  padding: 10px 25px;
+  text-decoration: none;
+}
+
+
+header li a {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: white;
+}
 
 /* MAIN */
 main{
