@@ -26,11 +26,23 @@ header {
 }
 
 
-.header-img {
+.header-top {
   text-align: center;
   background-image: url("../img/natural-header.jpg");
   background-size: cover;
   height: 300px;
+}
+
+header img {
+  padding-top: 20px;
+  width: 50%;
+}
+
+
+header h2{
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
 }
 
 
