@@ -99,6 +99,7 @@ main .square {
   border-radius: 2%;
   font-family: 'Roboto', sans-serif;
   color: #4f4f4f;
+  line-height: 27px;
 }
 
 
@@ -168,7 +169,6 @@ section .titolo-centro{
 section .parag-centro {
   padding-top: 30px;
   margin: 20px;
-  line-height: 27px;
 }
 
 
@@ -179,11 +179,16 @@ main .dx{
 }
 
 /* square piccoli destra */
-.squarino{
-  margin-bottom: 15px;
-  border-radius: 8%;
-  height: 180px;
+.squarino {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 2%;
 }
+
+
+
+
+
 
 
 /* FOOTER */
