@@ -1,0 +1,85 @@
+/* IMPOSTAZIONE PAGINA */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #dbdbdb;
+}
+
+.pagina {
+  width: 1000px;
+  max-width: 100%;
+  margin: 20px auto;
+}
+
+
+/* HEADER */
+header {
+  background-color: #bdab28;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  height: 100px;
+}
+
+
+/* MAIN */
+main{
+    height: 400px;
+    margin-bottom: 10px;
+}
+
+#container::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* square sx */
+main .sx{
+  background-color: #ab0eab;
+  float: left;
+  height: 280px;
+  width: 23%;
+  margin-right: 2%;
+}
+
+/* square centro */
+main .centro{
+  background-color: #7d544e;
+  float: left;
+  height: 400px;
+  width: 50%;
+  margin-right: 2%;
+}
+
+
+/* square padre destra */
+main .dx{
+  float: left;
+  width: 23%;
+}
+
+/* square piccoli destra */
+.squarino{
+  background-color: #ab0eab;
+  margin-bottom: 15px;
+  border-radius: 8%;
+  height: 180px;
+}
+
+
+/* FOOTER */
+footer {
+  background-color: #32a6a8;
+  height: 100px;
+  width: auto;
+}
+
+.joke {
+  font-size: 50px;
+  color: #8a5820;
+  float: right;
+}
