@@ -6,7 +6,8 @@
 }
 
 body{
-  background-color: #dbdbdb;
+  background-image: url("../img/natural-pattern.png");
+  font-family: 'Roboto', sans-serif;
 }
 
 .pagina {
@@ -18,10 +19,25 @@ body{
 
 /* HEADER */
 header {
-  background-color: #bdab28;
   margin-top: 30px;
   margin-bottom: 10px;
-  height: 100px;
+  height: 300px;
+
+}
+
+
+.header-img {
+  text-align: center;
+  background-image: url("../img/natural-header.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+
+header nav{
+  background-color: gray;
+  color: white;
+  text-decoration: none;
 }
 
 
