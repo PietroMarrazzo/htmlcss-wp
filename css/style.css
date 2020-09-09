@@ -111,7 +111,6 @@ main .square {
 
 main .sx {
   float: left;
-  height: 280px;
   width: 23%;
   margin-right: 2%;
 }
@@ -137,6 +136,20 @@ main div .fas.fa-rss{
   width: 70%;
   float: left;
   font-size: 20px;
+}
+
+#link-list {
+  list-style: none;
+}
+
+#link-list li {
+  margin: 5px;
+  padding: 5px;
+}
+
+#link-list li a{
+  color: green;
+  text-decoration: none;
 }
 
 
