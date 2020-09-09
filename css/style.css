@@ -95,8 +95,6 @@ main{
 /* proprietà comuni */
 
 main .square {
-  background-color: white;
-  border-radius: 2%;
   font-family: 'Roboto', sans-serif;
   color: #4f4f4f;
   line-height: 27px;
@@ -114,6 +112,8 @@ main .sx {
   float: left;
   width: 23%;
   margin-right: 2%;
+  background-color: white;
+  border-radius: 2%;
 }
 
 .rss-header {
@@ -159,6 +159,8 @@ main .centro{
   float: left;
   width: 50%;
   margin-right: 2%;
+  background-color: white;
+  border-radius: 2%;
 }
 
 section .titolo-centro{
@@ -178,14 +180,29 @@ main .dx{
   width: 23%;
 }
 
+.dx::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /* square piccoli destra */
-.squarino {
-  margin-top: 20px;
+div .squarino {
   margin-bottom: 20px;
+  border-radius: 2%;
+  background-color: white;
   border-radius: 2%;
 }
 
+.titolo-widget {
+  font-size: 20px;
+  padding: 15px;
+}
 
+.parag-widget {
+  padding-top: 10px;
+  margin: 15px;
+}
 
 
 
@@ -196,7 +213,11 @@ footer {
   background-color: #32a6a8;
   height: 100px;
   width: auto;
+  clear: both;
+  border-radius: 10%;
 }
+
+
 
 .joke {
   font-size: 50px;
