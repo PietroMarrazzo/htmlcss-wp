@@ -68,7 +68,7 @@ header li {
 }
 
 header li:hover {
-  background-color: #EFD19F;
+  background-color: #998870;
   color: #aec282;
 }
 
@@ -78,10 +78,6 @@ header li a {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   color: white;
-}
-
-header li a:hover{
-  color: #aec282;
 }
 
 
