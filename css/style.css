@@ -21,7 +21,7 @@ body{
 header {
   margin-top: 30px;
   margin-bottom: 10px;
-  height: 500px;
+
 }
 
 
@@ -69,7 +69,6 @@ header li {
 
 header li:hover {
   background-color: #998870;
-  color: #aec282;
 }
 
 
@@ -101,6 +100,23 @@ main .sx{
   width: 23%;
   margin-right: 2%;
 }
+
+.rss {
+  background-color: orange;
+}
+
+
+main div .fas.fa-rss{
+  font-size: 25px;
+  color: white;
+  background-color: orange;
+  padding: 2px;
+  border-radius: 5%;
+  margin: 5px;
+  float: left;
+}
+
+
 
 /* square centro */
 main .centro{
