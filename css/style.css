@@ -30,7 +30,7 @@ header {
   text-align: center;
   background-image: url("../img/natural-header.jpg");
   background-size: cover;
-  border: 10px solid white;
+  border: 10px solid lightgray;
 }
 
 
@@ -92,35 +92,56 @@ main{
   clear: both;
 }
 
+/* proprietà comuni */
+
+main .square {
+  background-color: white;
+  border-radius: 2%;
+  font-family: 'Roboto', sans-serif;
+  color: #4f4f4f;
+}
+
+
 /* square sx */
-main .sx{
-  background-color: #ab0eab;
+.header-sx::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+main .sx {
   float: left;
   height: 280px;
   width: 23%;
   margin-right: 2%;
 }
 
-.rss {
-  background-color: orange;
+.rss-header {
+  width: 30%;
+  float: left;
 }
 
 
 main div .fas.fa-rss{
-  font-size: 25px;
+  font-size: 30px;
   color: white;
   background-color: orange;
   padding: 2px;
-  border-radius: 5%;
+  border-radius: 8%;
   margin: 5px;
   float: left;
 }
 
 
+.titolo-header-sx {
+  width: 70%;
+  float: left;
+  font-size: 20px;
+}
+
 
 /* square centro */
 main .centro{
-  background-color: #7d544e;
   float: left;
   height: 400px;
   width: 50%;
@@ -136,7 +157,6 @@ main .dx{
 
 /* square piccoli destra */
 .squarino{
-  background-color: #ab0eab;
   margin-bottom: 15px;
   border-radius: 8%;
   height: 180px;
